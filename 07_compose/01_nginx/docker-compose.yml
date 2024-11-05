@@ -1,0 +1,8 @@
+# 실습시 사용하는 예제
+version: "3"
+
+services:
+  web:
+    image: nginx
+    volumes: 
+      - "/some/content:/usr/share/nginx/html:ro"
